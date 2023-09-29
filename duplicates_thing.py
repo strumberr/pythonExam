@@ -1,21 +1,21 @@
 def duplicateChars(word):
 
-    dictRepets = {}
+    dictRepeats = {}
 
     for el in word:
-        if el in dictRepets:
-            dictRepets[el] += 1
+        if el in dictRepeats:
+            dictRepeats[el] += 1
         else:
-            dictRepets[el] = 1
+            dictRepeats[el] = 1
     
     new_dict = {}
     elements_repeated = 0
 
-    for el in dictRepets:
-        if dictRepets[el] == 1:
+    for el in dictRepeats:
+        if dictRepeats[el] == 1:
             pass
         else:
-            new_dict[el] = dictRepets[el]
+            new_dict[el] = dictRepeats[el]
             elements_repeated += 1
     
     return elements_repeated

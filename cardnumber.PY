@@ -29,10 +29,12 @@ def checksum(cardnum):
 
     sum_result = sum(sum_dig)
     checksum = (sum_result // 10 + 1) * 10
-    reult = checksum - sum_result
+    result = checksum - sum_result
 
-    print(reult)
+    print(result%10)
 
 checksum(491748458989710)
+checksum(62)
 
 #full card number = 4917484589897107
+#full card number = 62

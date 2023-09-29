@@ -33,4 +33,6 @@ def checksum(cardnum):
 
     print(reult)
 
-checksum()
+checksum(491748458989710)
+
+#full card number = 4917484589897107

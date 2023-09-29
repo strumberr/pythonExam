@@ -7,4 +7,4 @@ def solution(word):
         return word[middle]
     
 
-print(solution("test"))
+print(solution("testing"))
